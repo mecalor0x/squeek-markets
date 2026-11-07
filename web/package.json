@@ -1,0 +1,28 @@
+{
+  "name": "squeek-markets-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "abi": "node scripts/export-abi.mjs",
+    "dev": "npm run abi && next dev -p 3000",
+    "build": "node scripts/check-deploy.mjs before && npm run abi && next build && node scripts/check-deploy.mjs after",
+    "start": "npx serve out",
+    "test": "vitest run",
+    "demo": "cd .. && ./scripts/demo.sh"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.107.1",
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "viem": "^2.57.16",
+    "wagmi": "^3.7.11"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+# Secrets: never commit keys, seeds or wallet files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.keystore
+keystore/
+keystores/
+*mnemonic*
+*seed-phrase*
+
+# Deploy records can hold RPC URLs with API keys
+broadcast/
+
+# Local rehearsal
+scripts/.demo.env
+scripts/.demo-addresses
+
+# Build output
+node_modules/
+.next/
+out/
+cache/
+contracts/lib/
+*.tsbuildinfo
