@@ -1,6 +1,6 @@
 # Secrets: never commit keys, seeds or wallet files
 .env
-.env.*
+.env*
 !.env.example
 *.key
 *.pem
@@ -14,7 +14,7 @@ keystores/
 broadcast/
 
 # Local rehearsal
-scripts/.demo.env
+scripts/.demo*
 scripts/.demo-addresses
 
 # Build output

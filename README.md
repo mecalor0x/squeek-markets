@@ -6,6 +6,8 @@ YES/NO pools in $SQK on what Squeektoshi, the hamster behind [Squeekchain](https
 - **SqueekMarkets:** [`0xc9dba8348b9400e91faf24a50fb8a725ccbba7eb`](https://eth-sepolia.blockscout.com/address/0xc9dba8348b9400e91faf24a50fb8a725ccbba7eb?tab=contract), source verified on Blockscout and [Sourcify](https://repo.sourcify.dev/11155111/0xc9dba8348b9400e91faf24a50fb8a725ccbba7eb) (exact match), deployed at block 12086553
 - **Bound to:** SQK `0xd78a3956cF63164d1Fa1C622ad3c66623162Fa1e` and SqueekCore `0xFD6C166D4B8E2962E65746a13e5a0797CD4dE0c4`
 
+squeekchain-project: 39be84c3-d662-4eef-9544-44af49447781
+
 ## How a result is decided
 Each night (noon to noon UTC, the wheel device's own day) has one automatic market with five ranges of laps:
 

@@ -11,6 +11,8 @@ const sans = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "600"], variabl
 export const metadata: Metadata = {
   title: "Squeek Markets",
   description: "Call what a real hamster does tonight. YES/NO pools in testnet SQK, settled only from SqueekCore on Sepolia.",
+  // Proves to Squeekchain Genesis that this site belongs to the project. It is rechecked daily, so keep it.
+  other: { "squeekchain-project": "39be84c3-d662-4eef-9544-44af49447781" },
 };
 export const viewport: Viewport = { themeColor: "#0a0a0c", width: "device-width", initialScale: 1 };
 
